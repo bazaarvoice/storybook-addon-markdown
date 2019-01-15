@@ -4,8 +4,8 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 
 import Button from './Button';
-import readme from '!raw!../README.md';
-import doc from '!raw!./doc.md';
+import readme from '!raw-loader!../README.md';
+import doc from '!raw-loader!./doc.md';
 const context = {Button};
 
 const buttonDocTwo = `

@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 
 // A not well documented button component
@@ -13,19 +14,19 @@ Button.propTypes = {
     /**
      * Label used on the button
      */
-    label: React.PropTypes.string.isRequired,
+    label: PropTypes.string.isRequired,
     /**
      * Style of the button as an inline style object
      */
-    style: React.PropTypes.object,
+    style: PropTypes.object,
     /**
      * Sets disabled flag on the button component
      */
-    disabled: React.PropTypes.bool,
+    disabled: PropTypes.bool,
     /**
      * Click event handler function (receives an event)
      */
-    onClick: React.PropTypes.func,
+    onClick: PropTypes.func,
 };
 
 export default Button;

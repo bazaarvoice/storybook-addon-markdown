@@ -1,8 +1,8 @@
 import React from 'react';
 import marked from 'marked';
 import highlight from 'highlight.js';
-import '!style!css!github-markdown-css/github-markdown.css';
-import '!style!css!highlight.js/styles/github.css';
+import '!style-loader!css-loader!github-markdown-css/github-markdown.css';
+import '!style-loader!css-loader!highlight.js/styles/github.css';
 
 import codePreview from './codePreview';
 

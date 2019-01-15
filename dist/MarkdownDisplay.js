@@ -36,9 +36,9 @@ var _highlight2 = require('highlight.js');
 
 var _highlight3 = _interopRequireDefault(_highlight2);
 
-require('!style!css!github-markdown-css/github-markdown.css');
+require('!style-loader!css-loader!github-markdown-css/github-markdown.css');
 
-require('!style!css!highlight.js/styles/github.css');
+require('!style-loader!css-loader!highlight.js/styles/github.css');
 
 var _codePreview = require('./codePreview');
 
