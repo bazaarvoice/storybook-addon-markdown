@@ -1,5 +1,5 @@
 import React from 'react';
-import {configure, setAddon} from '@kadira/storybook';
+import {configure, setAddon} from '@storybook/react';
 import MarkdownAddon from '../src';
 
 setAddon(MarkdownAddon);
