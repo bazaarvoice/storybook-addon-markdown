@@ -4,7 +4,7 @@
   "description": "A Storybook addon to display a markdown file in a panel.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mihalik/storybook-addon-markdown.git"
+    "url": "https://github.com/bazaarvoice/storybook-addon-markdown.git"
   },
   "license": "MIT",
   "scripts": {
